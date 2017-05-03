@@ -1,4 +1,4 @@
-# (sandbox) GAS modal html in docs
+# (Example) GAS modal html in docs
 
 ## Summary
 
