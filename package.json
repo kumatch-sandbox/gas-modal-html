@@ -1,8 +1,8 @@
 {
-  "name": "gas-1",
+  "name": "gas-modal-html",
   "private": true,
   "scripts": {
-    "build": "NODE_ENV=production webpack"
+    "build": "webpack"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
@@ -15,8 +15,7 @@
     "es3ify-webpack-plugin": "0.0.1",
     "gas-webpack-plugin": "^0.2.0",
     "html-loader": "^0.4.5",
-    "webpack": "^2.4.1",
-    "webpack-merge": "^4.1.0"
+    "webpack": "^2.4.1"
   },
   "babel": {
     "plugins": [
@@ -24,12 +23,7 @@
       "transform-runtime"
     ],
     "presets": [
-      [
-        "es2015",
-        {
-          "modules": false
-        }
-      ]
+      ["es2015", { "modules": false }]
     ]
   }
 }
